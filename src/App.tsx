@@ -19,7 +19,6 @@ function App() {
         (async () => {
             try {
                 const product = await requests.get<Product>("/speech");
-                console.log("product", product);
                 setProduct(product);
             } catch (error) {
                 console.log("error", error);
