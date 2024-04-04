@@ -30,7 +30,7 @@ function App() {
     return (
         <>
             <span>test</span>
-            <div>{item?.product.title}</div>
+            <div className="text-lg text-red-400">{item?.product.title}</div>
         </>
     );
 }
