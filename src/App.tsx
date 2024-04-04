@@ -30,7 +30,7 @@ function App() {
     return (
         <>
             <span>test</span>
-            <div>{item?.product.description}</div>
+            <div>{item?.product.title}</div>
         </>
     );
 }
